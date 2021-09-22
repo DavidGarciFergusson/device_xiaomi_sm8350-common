@@ -145,6 +145,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.composer-service \
     vendor.qti.hardware.display.mapper@2.0.vendor \
 
+# APN
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/etc/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
+
+
 PRODUCT_PACKAGES += \
     vendor.display.config@1.15.vendor \
     vendor.display.config@2.0.vendor
