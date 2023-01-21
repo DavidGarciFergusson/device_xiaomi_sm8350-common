@@ -356,7 +356,15 @@ PRODUCT_PACKAGES += \
 # Minijail
 PRODUCT_PACKAGES += \
     libavservices_minijail \
+<<<<<<< HEAD
     libavservices_minijail.vendor
+=======
+    libavservices_minijail.vendor \
+    libcodec2_hidl@1.0.vendor \
+    libcodec2_hidl@1.1.vendor \
+    libcodec2_soft_common.vendor \
+    libsfplugin_ccodec_utils.vendor
+>>>>>>> 7ab23da (sm8350-common: Patch dolby binary to load correct lib)
 
 # Network
 PRODUCT_COPY_FILES += \
